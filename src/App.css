@@ -1,0 +1,43 @@
+.project {
+  width: 630px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.project__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-bottom: 20px;
+
+  list-style-type: none;
+}
+
+.project__button {
+  padding: 5px 15px;
+  margin-right: 5px;
+
+  background-color: #fff;
+  border: 1px solid #000;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.project__wrapper {
+  column-count: 3;
+  line-height: 2;
+  grid-column-gap: 0;
+}
+
+.project__card {
+  width: 200px;
+}
+
+.project__image {
+  width: 100%;
+}
+
+.active {
+  background-color: rgba(122, 122, 122, 0.8);
+}
